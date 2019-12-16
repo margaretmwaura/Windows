@@ -1,0 +1,379 @@
+@import "variables";
+#body {
+  &_top {
+
+    &_nav_bar {
+
+      &_navbar {
+
+        &_links {
+          img {
+            height: 75px;
+            width: 75px;
+            float: left;
+          }
+
+          ul {
+            padding-top: 15px;
+            float: right;
+
+            li {
+              padding-left: 0px;
+              padding-right: 0px;
+              margin-left: 0px;
+              margin-right: 0px;
+
+              a {
+                color: purple;
+                font-size: 15px;
+              }
+
+              a:hover {
+                border-bottom: 5px solid #000000;
+              }
+
+            }
+          }
+
+        }
+
+      }
+    }
+  }
+
+  &_banner {
+    width: 100%;
+    height: 560px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &_content {
+
+      p {
+        color: white;
+        font-size: 40px;
+        margin-top: 150px;
+        line-height: 1.1em;
+      }
+
+      button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+      }
+
+      span {
+        margin-left: 25px;
+      }
+    }
+  }
+
+  &_stickers {
+    &_one {
+      p {
+        display: inline-block;
+      }
+
+      &_paragraph {
+        background-color: indigo;
+        font-size: 12px;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 40px;
+        padding-left: 40px;
+      }
+
+      &_paragraphs {
+        background-color: #f7e4e1;
+      }
+    }
+
+
+  }
+
+  &_content {
+    height: 280px;
+    color: white;
+
+    &_one {
+      background-color: indianred;
+      padding-left: 40px;
+
+      button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+      }
+
+      #one {
+        padding-top: 40px;
+        font-size: 22px;
+        font-weight: bolder;
+      }
+
+      #two {
+        font-size: 18px;
+        line-height: 1.1em;
+      }
+    }
+
+    &_two {
+      background-color: indigo;
+      font-size: 22px;
+      font-weight: bolder;
+      padding-top: 230px;
+      padding-left: 40px;
+    }
+  }
+
+  &_n {
+    background-color: #f7e4e1;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    &_news {
+
+      color: black;
+
+      p {
+        font-weight: bolder;
+        font-size: 20px;
+        margin-top: 20px;
+      }
+
+      button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+      }
+
+      #span_one {
+        float: right;
+      }
+    }
+
+    &_read {
+      height: 300px;
+      margin-top: 10px;
+
+      &_one {
+        height: 300px;
+
+        &_indigo {
+          padding-left: 28px;
+          padding-top: 50px;
+          width: 100%;
+          height: 150px;
+          background-color: indigo;
+          font-size: 17px;
+          color: white;
+        }
+
+        &_white {
+          padding-left: 30px;
+          padding-top: 17px;
+          width: 100%;
+          height: 150px;
+          background-color: white;
+          font-size: 16px;
+          padding-right: 15px;
+
+          small {
+            padding-top: 20px;
+            float: right;
+          }
+        }
+      }
+
+      &_two {
+        height: 300px;
+
+        &_indigo {
+          padding-left: 30px;
+          padding-top: 50px;
+          width: 100%;
+          height: 150px;
+          background-color: indigo;
+          font-size: 17px;
+          color: white;
+        }
+
+        &_white {
+          padding-left: 30px;
+          padding-top: 17px;
+          width: 100%;
+          height: 150px;
+          background-color: white;
+          font-size: 16px;
+          padding-right: 5px;
+
+          small {
+            padding-top: 20px;
+            
+          }
+        }
+
+      }
+
+      &_three {
+        height: 300px;
+
+        &_indigo {
+          padding-left: 28px;
+          padding-top: 50px;
+          width: 100%;
+          height: 150px;
+          background-color: indigo;
+          font-size: 17px;
+          color: white;
+        }
+
+        &_white {
+          padding-left: 30px;
+          padding-top: 17px;
+          width: 100%;
+          height: 150px;
+          background-color: white;
+          font-size: 16px;
+          padding-right: 15px;
+
+          small {
+            padding-top: 20px;
+            float: right;
+          }
+        }
+      }
+    }
+  }
+
+  &_coffee
+  {
+    background: url("coffee.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &_begin
+    {
+      height: 400px;
+      &_y
+      {
+        height: 400px;
+        &_content
+        {
+           background-color: indianred;
+           width: 100%;
+            border-top: 5px solid indigo ;
+            padding-left:40px;
+           button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+          }
+    
+          #one {
+            padding-top: 40px;
+            font-size: 22px;
+            font-weight: bolder;
+            color:white;
+          }
+    
+          #two {
+            font-size: 18px;
+            line-height: 1.1em;
+            color: white;;
+          }
+        }
+      } 
+     
+    }
+   
+  }
+
+  &_map
+  {
+    height: 400px;
+    &_start
+    {
+      height: 400px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      &_one
+      {
+        height: 400px;
+         background : url("map.jpg")
+      }
+      &_two
+      {
+
+        padding-left: 25px;
+        button {
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 15px 15px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+        }
+
+        p{
+          font-size: 33px;
+          padding-top: 35px;
+        }
+      }
+    }
+  }
+
+   &_footer
+   {
+
+     background-color: #000000;;
+     &_social
+     {
+
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        color :indigo;
+        background: white;
+      }
+     }
+   }
+
+}
